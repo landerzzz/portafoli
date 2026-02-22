@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Configuración de altavoz</legend>
+
+        <label>
+            Modelo:
+            <select name="modelo">
+                <option value="" disabled selected>Selecciona un modelo</option>
+                <option value="R4">Model R4</option>
+                <option value="R5">Model R5</option>
+                <option value="SR1">Model SR1</option>
+            </select>
+        </label>
+
+        <label>
+            Potencia maxima 50-100:
+            <input type="range" name="potencia" min="50" max="100">
+        </label>
+
+        <label>
+            Bluetooth?
+            <input type="checkbox" name="bluetooth">
+        </label>
+
+        <label>
+            Color:
+            <input type="color" name="color">
+        </label>
+
+        <button type="submit">Realizar pedido</button>
+    </fieldset>
+</form>
+</body>
+</html>

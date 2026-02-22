@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Compra de càmares</legend>
+
+        <label>
+            Quina càmera busques?
+            <input type="search" name="busqueda">
+        </label>
+
+        <label>
+            Tipus de càmera:
+            <select name="tipo">
+                <option value="" disabled selected>Selecciona un tipus</option>
+                <option value="reflex">Réflex</option>
+                <option value="pro">Professional</option>
+                <option value="dinamica">Dinàmica</option>
+            </select>
+        </label>
+
+        <label>
+            Pressupost màxim:
+            <input type="range" name="preu" min="100" max="5000">
+        </label>
+
+        <button type="submit">Buscar</button>
+    </fieldset>
+</form>
+</body>
+</html>

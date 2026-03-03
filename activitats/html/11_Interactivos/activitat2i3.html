@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buscador de Mobils</h1>
+    <button popovertarget="menu-navegacio">Menuu☰</button>
+
+    <dialog popover id="menu-navegacio">
+        <nav>
+            <ul>
+                <li><a href="#">Inici</a></li>
+                <li><a href="#">Serveis</a></li>
+                <li><a href="#">Contacte</a></li>
+                <li><a href="#">Sobre nosaltres</a></li>
+            </ul>
+        </nav>
+    </dialog>
+</header>
+
+<main>
+    <form>
+        <label>Marca:</label>
+        <input list="marques-mobils" name="marca">
+        <datalist id="marques-mobils">
+            <option value="Apple">
+            <option value="Google Pixel">
+            <option value="Xiaomi">
+        </datalist>
+
+        <label>Preu:</label>
+        <select>
+            <option>0$ - 300$</option>
+            <option>300$ - 600$</option>
+            <option>Més de 600$</option>
+        </select>
+    </form>
+</main>
+</body>
+</html>

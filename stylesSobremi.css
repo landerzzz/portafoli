@@ -1,0 +1,27 @@
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.cv-photo {
+    width: 250px; /* Tamany mitjà */
+    height: auto;
+    border: 1px solid #333;
+    filter: grayscale(100%); /* Efecte blanc i negre per l'estil fosc */
+    box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+
+.bio {
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+.skills-grid p {
+    margin-bottom: 10px;
+    color: #ccc;
+}

@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="stylesIndex.css">
 </head>
 <body>
-    <h1>PORTAFOLI HTML/CSS Aleix Prats Mir</h1>
 
-    <p>Pàgina sobre mí</p>
-    <a href="sobremi.html">Qui soc?</a>
+    <div class="container">
+        <header>
+            <h1>ALEIX PRATS MIR</h1>
+            <p>Desenvolupament d'Aplicacions Web</p>
+        </header>
 
-    <p>Índex a les activitats HTML:</p>
-    <a href="activitats/activitats.html">Anar a activitats HTML</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="sobremi.html">Sobre mi</a></li>
+                <li><a href="/activitats/activitats.html">Activitats HTML</a></li>
+            </ul>
+        </nav>
 
+        <main>
+            <section class="card">
+                <h2>Presentació</h2>
+                <p>Benvinguts al meu portafoli personal per al mòdul de Llenguatges de Marques.</p>
+            </section>
 
-    <p>Índex a les activitats CSS:</p>
-    
-</body>
-</html>
+            <section class="card">
+                <h2>Seccions Principals</h2>
+                <ul class="list-links">
+                    <li><a href="sobremi.html">Biografia i Perfil</a></li>
+                    <li><a href="activitats/activitats.html">Exercicis HTML</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>

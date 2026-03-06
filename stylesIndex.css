@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+header {
+    padding: 40px 20px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+nav {
+    padding: 15px 20px;
+    border-bottom: 1px solid #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #888;
+}
+
+main {
+    padding: 40px 20px;
+    min-height: 70vh;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #888;
+}
+
+footer {
+    padding: 30px 20px;
+    border-top: 1px solid #333;
+    font-size: 12px;
+    color: #666;
+}
+
+footer a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+input, textarea {
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    padding: 10px;
+}
+
+button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#formulari" style="position:absolute; top:-1000px;">Saltar al contingut</a> <main id="formulari">
+        <h1>REGISTRE</h1>
+        
+        <form action="#">
+            <p>
+                <label for="nom">Nom complet:</label><br>
+                <input type="text" id="nom" name="usuari" required>
+            </p>
+
+            <p>
+                <label for="email">Correu electrònic:</label><br>
+                <input type="email" id="email" name="correu" required>
+            </p>
+
+            <p>
+                <label for="interes">Què t'interessa?:</label><br>
+                <input list="opcions-interes" id="interes" name="tema">
+                <datalist id="opcions-interes">
+                    <option value="Desenvolupament Web"></option>
+                    <option value="Disseny Gràfic"></option>
+                    <option value="Accessibilitat"></option>
+                </datalist>
+            </p>
+
+            <button type="submit" aria-label="Enviar formulari de registre">ENVIAR</button> </form>
+    </main>
+</body>
+</html>
